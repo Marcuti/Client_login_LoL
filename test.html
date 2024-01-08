@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .input_user:focus ~ .label_input,
+    .input_user:valid ~ .label_input {
+      top: -20px;
+      font-size: 12px;
+      color: dodgerblue;
+    }
+
+    /* Estilo padrão para a label */
+    .label_input {
+      position: absolute;
+      top: 10px; /* Ajuste conforme necessário */
+      left: 10px; /* Ajuste conforme necessário */
+      font-size: 16px; /* Tamanho padrão da fonte */
+      color: black; /* Cor padrão do texto */
+      transition: top 0.3s, font-size 0.3s, color 0.3s;
+      pointer-events: none; /* Evita que a label seja clicada */
+    }
+
+    /* Estilo padrão para o input */
+    .input_user {
+      padding: 10px;
+      margin: 10px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-group">
+    <input type="text" class="input_user" id="username" required>
+    <label for="username" class="label_input">Username</label>
+  </div>
+</body>
+</html>

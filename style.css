@@ -1,0 +1,71 @@
+.container{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    box-shadow: -17px -16px 59px -4px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    width: 60%;
+    height: 40%;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo_login img{
+    width: 30%;
+    left: 35%;
+    position: relative;
+    
+}
+h1{
+    position: relative;
+    align-items: center;
+    right: 200%;
+    left: 40%;
+    font-size: 25px;
+}
+
+.container__{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.image_dir img{
+    width: 95%;
+    height: auto;
+}
+.label_input{
+    font-weight: bold;
+    font-size: 10px;
+    width: 50%;
+    padding: 18px;
+    margin-top: 10px;
+    position: relative;
+    left: 20%;
+    border-radius: 2px;
+    border-style: none;
+    background-color: rgba(182, 174, 174, 0.308);
+   
+}
+.input_box{
+    display: flex;
+    flex-direction: column;
+    
+}
+.redes_sociais ul{
+    display: flex;
+    
+    
+}
+
